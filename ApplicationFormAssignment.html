@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="FormStylesheet.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2">Personal Information</th>
+            </tr>
+            <tr>
+                <td>Surname:</td>
+                <td><input type="text" name="sname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Middle Name:</td>
+                <td><input type="text" name="mname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="add" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="uname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <select name="gender">
+                        <option>Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Civil Status:</td>
+                <td>
+                    <input type="radio" name="stat" value="Single">Single
+                    <input type="radio" name="stat" value="Married">Married
+                    <input type="radio" name="stat" value="Separated">Separated
+                    <input type="radio" name="stat" value="Divorced">Divorced
+                    <input type="radio" name="stat" value="Widowed">Widowed
+                </td>
+            </tr>
+            <tr>
+                <td>Course Interested:</td>
+                <td>
+                    <input type="checkbox" name="course" value="Civil Engineering">BS Civil Engineering
+                    <input type="checkbox" name="course" value="Electrical Engineering">BS Electrical Engineering
+                    <input type="checkbox" name="course" value="IT">BS Information Technology
+                    <input type="checkbox" name="course" value="Education">BS Education
+                    <input type="checkbox" name="course" value="Psychology">BS Psychology
+                    <input type="checkbox" name="course" value="Business Administration">BS Business Administration
+                    <input type="checkbox" name="course" value="Accountancy">BS Accountancy
+                    <input type="checkbox" name="course" value="Public Administration">BS Public Administration
+                </td>
+            </tr>
+            <tr>
+                <td>Comments & Suggestions:</td>
+                <td><textarea name="comments" rows="5" maxlength="200" placeholder="Type your text here..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="buttons">
+                    <input type="button" value="Home" onclick="window.location.href='HomeHTML.html'">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <input type="button" value="Cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
