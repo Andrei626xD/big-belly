@@ -1,0 +1,89 @@
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #ff9800;
+}
+
+.menu__bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu__bar ul li {
+    position: relative;
+}
+
+.menu__bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu__bar ul li a:hover {
+    background-color: #ff9800;
+    color: black;
+    transform: scale(1.05);
+}
+
+.dropdown__menu, .dropdown__menu-1 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.menu__bar ul li:hover .dropdown__menu,
+.menu__bar ul li:hover .dropdown__menu-1 {
+    display: block;
+}
+
+.image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 152, 0, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.image img:hover {
+    box-shadow: 0 0 40px rgba(255, 152, 0, 1);
+}
+
+.hiro {
+    text-align: center;
+    margin-top: 20px;
+}

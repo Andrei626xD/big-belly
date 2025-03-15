@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="textbox"], input[type="password"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 4px 0;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], input[type="reset"], input[type="button"] {
+            padding: 10px 15px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="plv form" method="post">
+        <table>
+            <tr>
+                <th colspan="2">Personal Information</th>
+            </tr>
+            <tr>
+                <td>Surname:</td>
+                <td><input type="textbox" name="sname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="textbox" name="fname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Middle Name:</td>
+                <td><input type="textbox" name="mname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="textbox" name="add" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="textbox" name="uname" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <select>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    &nbsp;
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    &nbsp;
+                    <select>
+                        <option>1970</option>
+                        <option>1971</option>
+                        <option>1972</option>
+                        <option>1973</option>
+                        <option>1974</option>
+                        <option>1975</option>
+                        <option>1976</option>
+                        <option>1977</option>
+                        <option>1978</option>
+                        <option>1979</option>
+                        <option>1980</option>
+                        <option>1981</option>
+                        <option>1982</option>
+                        <option>1983</option>
+                        <option>1984</option>
+                        <option>1985</option>
+                        <option>1986</option>
+                        <option>1987</option>
+                        <option>1988</option>
+                        <option>1989</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Civil Status:</td>
+                <td>
+                    <input type="radio" name="stat">Single
+                    <input type="radio" name="stat">Married
+                    <input type="radio" name="stat">Separated
+                    <input type="radio" name="stat">Divorced
+                    <input type="radio" name="stat">Widowed
+                </td>
+            </tr>
+            <tr>
+                <td>Course Interested:</td>
+                <td>
+                    <input type="checkbox" name="Course">BS Civil Engineering
+                    <input type="checkbox" name="Course">BS Electrical Engineering
+                    <input type="checkbox" name="Course">BS Information Technology
+                    <input type="checkbox" name="Course">BS Education
+                    <input type="checkbox" name="Course">BS Psychology
+                    <input type="checkbox" name="Course">BS Business Administration
+                    <input type="checkbox" name="Course">BS Accountancy
+                    <input type="checkbox" name="Course">BS Public Administration
+                </td>
+            </tr>
+            <tr>
+                <td>Comments & Suggestions:</td>
+                <td><textarea rows="10" cols="50" maxlength="200">type text here...</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="sub" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                    <input type="button" name="but" value="Siya">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

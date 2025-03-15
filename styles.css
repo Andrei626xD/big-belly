@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+}
+frameset {
+    border: none;
+    
+}
+
+h1 {
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+h2 {
+    color: #ddd;
+    text-align: center;
+}
+tr:hover {
+    background-color: gray;
+}
+tr.trone {
+    color: #ddd;
+}
+tr.trtwo {
+    color: black ;
+    border-color:black;
+}

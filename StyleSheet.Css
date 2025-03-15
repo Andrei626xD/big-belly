@@ -1,0 +1,13 @@
+H1.one {font-family:"Courier New", Courier, monospace;
+		font-size: 12pt;
+		color:Red;
+		font-style:italic }
+H1.two {font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+		font-size: 16pt;
+		color:Green;
+		text-align:center}
+H1.three {background-color:Navy;
+		font-family:"Brush Script MT";
+		font-size: 16pt;
+		color:Fuschia;
+		text-align:center}

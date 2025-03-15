@@ -1,0 +1,41 @@
+physical - bits
+data link - frames
+network - packets
+transport - segments
+session - data
+presentation - data
+application - data
+
+dns - domain name system
+tcp - transmission control protocol
+udp - user datagram protocol
+pdu - protocol data unit
+dhcp - dynamic host configuration protocol
+nat - network address translation
+icmp - internet control message protocol
+ssh - secure shell
+tftp - trivial file transfer protocol
+smtp - simple mail transfer protocol
+ip - internet protocol
+igmp - internet group management protocol
+gre - Generic Routing encapsulation
+snmd - simple network management protocol
+ftp - file transfer protocol
+http - hypertext transfer protocol
+https - hypertext transfer protocol secure
+
+
+What are the main components of an Ethernet frame?
+Preamble
+Start Frame Delimiter (SFD)
+Destination MAC
+Source MAC
+Type field
+Data and Pad
+Frame Check Sequence (FCS)
+
+ip address 201.222.164.49
+
+Crossover Cabling 
+wgreen-green-worange-blue-wblue-orange-wbrown-brown
+
